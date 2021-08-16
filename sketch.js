@@ -47,5 +47,7 @@ function draw() {
 }
 
 function keyPressed() {
-  	
+  	if(keyCode===UP_ARROW){
+	Mater.Body.applyForce(ball,ball.position,{x:-85,y:-85})
+}
 }
